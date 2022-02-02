@@ -11,7 +11,13 @@ import edu.eci.cvds.patterns.shapes.Shape;
  * @author edwar.lozano
  */
 public class Quadrilateral implements Shape{
+    private final int EDGES = 4;
+    
+    public Quadrilateral(){
+        
+    }
+    
     public int getNumberOfEdges() {
-        return 4 ;
+        return EDGES;
     }
 }
